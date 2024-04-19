@@ -4,7 +4,7 @@ function generateTable() {
   tableContainer.innerHTML = "";
 
   var table = document.createElement("table");
-  for (var i = 1; i <= 10; i++) {
+  for (var i = 1; i <= 12; i++) {
     var row = document.createElement("tr");
     row.innerHTML =
       "<td>" + number + " x " + i + "</td>" + "<td>" + number * i + "</td>";
